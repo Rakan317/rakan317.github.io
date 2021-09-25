@@ -2,6 +2,8 @@
 
 ## Awesome Repositories
 
+This is a Template coping https://github.com/Hack-with-Github/Awesome-Hacking page temprary
+
 Repository | Description
 ---- | ----
 [Android Security](https://github.com/ashishb/android-security-awesome) 			| Collection of Android security related resources
