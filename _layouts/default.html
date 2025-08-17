@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Writeups</title>
+  <title>{{ page.title | default: site.title }}</title>
   <style>
     body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 1rem; }
     header { text-align: center; margin-bottom: 2rem; }
@@ -13,14 +13,11 @@
 </head>
 <body>
   <header>
-    <h1>Writeups</h1>
-    <p>Personal blog for CTF and security writeups.</p>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
   </header>
   <main id="posts">
-    <article>
-      <h2>Welcome!</h2>
-      <p>This blog is ready for new writeups. Start by adding your first post.</p>
-    </article>
+    {{ content }}
   </main>
 </body>
 </html>
